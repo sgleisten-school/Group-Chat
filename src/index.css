@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-dark-slate: #1F2A33;
+  --color-cream: #FAF6EE;
+  --color-teal-brand: #2E7D6B;
+  --color-amber-brand: #E8B04A;
+  --color-coral-brand: #B5533F;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  background-color: #FAF6EE;
+  color: #1F2A33;
+}
+
+.font-serif-display {
+  font-family: "Fraunces", Georgia, serif;
+}
+
+/* Accessible focus styling */
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 2px solid #2E7D6B;
+  outline-offset: 2px;
+}

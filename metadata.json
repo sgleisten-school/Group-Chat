@@ -1,0 +1,6 @@
+{
+  "name": "Group Chat Lab",
+  "description": "An interactive, classroom-friendly experience where 4th-6th graders step into a fake group chat as a bystander and practice what to do when someone gets hurt or left out.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
